@@ -11,8 +11,8 @@ parameters:
             allow_risky: false
             cache_file: ~
             config: ~
-            rules: []
-            using_cache: true
+            rules: ["@Symfony"]
+            using_cache: false
             path_mode: ~
             verbose: true
         phplint: ~
