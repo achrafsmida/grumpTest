@@ -1,0 +1,20 @@
+parameters:
+    bin_dir: "./vendor/bin"
+    git_dir: "."
+    tasks:
+        composer: ~
+        gulp: ~
+        jsonlint: ~
+        kahlan: ~
+        phpcs: ~
+        phpcsfixer2:
+            allow_risky: false
+            cache_file: ~
+            config: ~
+            rules: []
+            using_cache: true
+            path_mode: ~
+            verbose: true
+        phplint: ~
+        phpspec: ~
+        phpunit: ~
